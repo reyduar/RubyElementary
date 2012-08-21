@@ -1,0 +1,439 @@
+require 'rubygems'
+require 'selenium-webdriver'
+require_relative '../../../lib/base_page'
+require 'spec_helper'
+
+class PackageResultsPage < BasePage    
+  def initialize(driver, test_env)   
+    @db_object = Page.find_by_name('package results page')
+    @url = Environment.find_by_name(test_env).base_url + Page.find_by_name('package results page').url
+    @title = Page.find_by_name('package results page').title
+    @driver = driver 
+  end    
+
+  def package_results_page_head_title
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+      @package_results_page_head_title = self.driver.find_element(:css => self.db_object.elements.find_by_name('package results page head title').by_css_locator)
+	  @package_results_page_head_title if @package_results_page_head_title.displayed?
+	}	
+	end 
+    
+  def result_error_messages
+  	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @result_error_messages = self.driver.find_element(:css => self.db_object.elements.find_by_name('package results error messages').by_css_locator)
+	  @result_error_messages if @result_error_messages.displayed?
+	}	
+  end     
+  
+  def sort_by_combobox 
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @sort_by_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('sort by combobox').by_css_locator)
+	  @sort_by_combobox if @sort_by_combobox.displayed?
+	}	
+	end  
+  
+  def sort_by_combobox_values
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @sort_by_combobox_values = self.driver.find_elements(:css => self.db_object.elements.find_by_name('sort by combobox values').by_css_locator)
+	  @sort_by_combobox_values if @sort_by_combobox_values[0].displayed?
+	}	
+	end 
+
+  def results_hotel_names
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @results_hotel_names = self.driver.find_elements(:css => self.db_object.elements.find_by_name('results hotel names').by_css_locator)
+	  @results_hotel_names if @results_hotel_names[0].displayed?
+	}	
+	end 
+  
+  def results_hotel_prices
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @results_hotel_prices = self.driver.find_elements(:css => self.db_object.elements.find_by_name('results hotel prices').by_css_locator)
+	  @results_hotel_prices if @results_hotel_prices[0].displayed?
+	}	
+	end 
+  
+  def first_card_star_five
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @first_card_star_five = self.driver.find_element(:css => self.db_object.elements.find_by_name('first card star five').by_css_locator)
+	  @first_card_star_five if @first_card_star_five.displayed?
+	}	
+	end 
+  
+  def first_card_star_four
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @first_card_star_four = self.driver.find_element(:css => self.db_object.elements.find_by_name('first card star four').by_css_locator)
+	  @first_card_star_four if @first_card_star_four.displayed?
+	}	
+	end  
+  
+  def first_card_star_three
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @first_card_star_three = self.driver.find_element(:css => self.db_object.elements.find_by_name('first card star three').by_css_locator)
+	  @first_card_star_three if @first_card_star_three.displayed?
+	}	
+	end 
+  
+  def second_card_star_five
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @second_card_star_five = self.driver.find_element(:css => self.db_object.elements.find_by_name('second card star five').by_css_locator)
+	  @second_card_star_five if @second_card_star_five.displayed?
+	}	
+	end
+  
+  def second_card_star_four
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @second_card_star_four = self.driver.find_element(:css => self.db_object.elements.find_by_name('second card star four').by_css_locator)
+	  @second_card_star_four if @second_card_star_four.displayed?
+	}	
+	end
+  
+  def second_card_star_three
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @second_card_star_three = self.driver.find_element(:css => self.db_object.elements.find_by_name('second card star three').by_css_locator)
+	  @second_card_star_three if @second_card_star_three.displayed?
+	}	
+	end
+  
+  def third_card_star_five
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @third_card_star_five = self.driver.find_element(:css => self.db_object.elements.find_by_name('third card star five').by_css_locator)
+	  @third_card_star_five if @third_card_star_five.displayed?
+	}	
+	end
+  
+  def third_card_star_four
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @third_card_star_four = self.driver.find_element(:css => self.db_object.elements.find_by_name('third card star four').by_css_locator)
+	  @third_card_star_four if @third_card_star_four.displayed?
+	}	
+	end
+  
+  def third_card_star_three
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @third_card_star_three = self.driver.find_element(:css => self.db_object.elements.find_by_name('third card star three').by_css_locator)
+	  @third_card_star_three if @third_card_star_three.displayed?
+	}	
+	end
+  
+  def help_sorting_icon
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @help_sorting_icon = self.driver.find_element(:class => self.db_object.elements.find_by_name('help sorting icon').by_class_locator)
+	  @help_sorting_icon if @help_sorting_icon.displayed?
+	}	
+	end    
+  
+  def help_sorting_overlay_title
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @help_sorting_overlay_title = self.driver.find_element(:css => self.db_object.elements.find_by_name('help sorting overlay title').by_css_locator)
+	  @help_sorting_overlay_title if @help_sorting_overlay_title.displayed?
+	}	
+	end    
+
+  def see_all_flights_button
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @see_all_flights_button = self.driver.find_element(:css => self.db_object.elements.find_by_name('see all flights button').by_css_locator)
+	  @see_all_flights_button if @see_all_flights_button.displayed?
+	}	
+	end   
+  
+  def explanation_text_label
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @explanation_text_label = self.driver.find_element(:css => self.db_object.elements.find_by_name('explanation text label').by_css_locator)
+	  @explanation_text_label if @explanation_text_label.displayed?
+	}	
+	end    
+
+  def your_hotel_text_element
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @your_hotel_text_element = self.driver.find_element(:css => self.db_object.elements.find_by_name('your hotel text element').by_css_locator)
+	  @your_hotel_text_element if @your_hotel_text_element.displayed?
+	}	
+	end    
+  
+<<<<<<< .merge_file_a05596
+	def hotel_card_titles
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @hotel_card_titles = self.driver.find_elements(:css => self.db_object.elements.find_by_name("hotel card titles").by_css_locator)
+	  @hotel_card_titles if @hotel_card_titles[0].displayed?
+	}
+	end   
+  
+	def more_details_links
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @more_details_links = self.driver.find_elements(:css => self.db_object.elements.find_by_name("more details links").by_css_locator)
+	  @more_details_links if @more_details_links[0].displayed?
+	}
+	end       
+  
+	def rate_card_prices
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @rate_card_prices = self.driver.find_elements(:css => self.db_object.elements.find_by_name("rate card prices").by_css_locator)
+	  @rate_card_prices if @rate_card_prices[0].displayed?
+	}
+	end  
+
+	def booked_separately_prices
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @booked_separately_prices = self.driver.find_elements(:css => self.db_object.elements.find_by_name("booked separately prices").by_css_locator)
+	  @booked_separately_prices if @booked_separately_prices[0].displayed?
+	}
+	end  
+
+	def package_savings_prices
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @package_savings_prices = self.driver.find_elements(:css => self.db_object.elements.find_by_name("package savings prices").by_css_locator)
+	  @package_savings_prices if @package_savings_prices[0].displayed?
+	}
+	end  
+
+	def booked_separately_currencies
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @booked_separately_prices = self.driver.find_elements(:css => self.db_object.elements.find_by_name("booked separately currencies").by_css_locator)
+	  @booked_separately_prices if @booked_separately_prices[0].displayed?
+	}
+	end  
+
+	def package_savings_currencies
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @package_savings_prices = self.driver.find_elements(:css => self.db_object.elements.find_by_name("package savings currencies").by_css_locator)
+	  @package_savings_prices if @package_savings_prices[0].displayed?
+	}
+	end  
+
+	def results_package_cards
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @results_package_cards = self.driver.find_elements(:css => self.db_object.elements.find_by_name("results package cards").by_css_locator)
+	  @results_package_cards if @results_package_cards[0].displayed?
+	}
+	end   
+=======
+   def room_text_link 
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @room_text_link = self.driver.find_element(:css => self.db_object.elements.find_by_name('room text link').by_css_locator)
+	  @room_text_link if @room_text_link.displayed?
+	}	
+	end	
+  
+  def room_link_selection_options
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @room_combobox_selection_options = self.driver.find_elements(:css => self.db_object.elements.find_by_name('room link selection options').by_css_locator)
+	  @room_combobox_selection_options if @room_combobox_selection_options[0].displayed?
+	}	
+	end
+  
+  def update_button  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @update_button = self.driver.find_element(:css => self.db_object.elements.find_by_name('update button').by_css_locator)
+	  @update_button if @update_button.displayed?
+	}	
+	end 
+  
+  def room_1_adults_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_1_adults_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 1 adults combobox').by_css_locator)
+	  @room_1_adults_combobox if @room_1_adults_combobox.displayed?
+	}	
+	end 
+  
+  def room_2_adults_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_2_adults_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 2 adults combobox').by_css_locator)
+	  @room_2_adults_combobox if @room_2_adults_combobox.displayed?
+	}	
+	end
+  
+  def room_3_adults_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_3_adults_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 3 adults combobox').by_css_locator)
+	  @room_3_adults_combobox if @room_3_adults_combobox.displayed?
+	}	
+	end
+  
+  def room_4_adults_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_4_adults_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 4 adults combobox').by_css_locator)
+	  @room_4_adults_combobox if @room_3_adults_combobox.displayed?
+	}	
+	end
+  
+  def selection_options_adults_1_combobox
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @selection_options_adults_1_combobox = self.driver.find_elements(:css => self.db_object.elements.find_by_name('selection options adults 1 combobox').by_css_locator)
+	  @selection_options_adults_1_combobox if @selection_options_adults_1_combobox[0].displayed?
+	}	
+	end
+  
+  def selection_options_adults_2_combobox
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @selection_options_adults_2_combobox = self.driver.find_elements(:css => self.db_object.elements.find_by_name('selection options adults 2 combobox').by_css_locator)
+	  @selection_options_adults_2_combobox if @selection_options_adults_2_combobox[0].displayed?
+	}	
+	end
+  
+  def selection_options_adults_3_combobox
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @selection_options_adults_3_combobox = self.driver.find_elements(:css => self.db_object.elements.find_by_name('selection options adults 3 combobox').by_css_locator)
+	  @selection_options_adults_3_combobox if @selection_options_adults_3_combobox[0].displayed?
+	}	
+	end
+  
+  def selection_options_adults_4_combobox
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @selection_options_adults_4_combobox = self.driver.find_elements(:css => self.db_object.elements.find_by_name('selection options adults 4 combobox').by_css_locator)
+	  @selection_options_adults_4_combobox if @selection_options_adults_4_combobox[0].displayed?
+	}	
+	end
+  
+  def room_1_seniors_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_1_seniors_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 1 seniors combobox').by_css_locator)
+	  @room_1_seniors_combobox if @room_1_seniors_combobox.displayed?
+	}	
+	end 
+  
+  def room_2_seniors_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_2_seniors_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 2 seniors combobox').by_css_locator)
+	  @room_2_seniors_combobox if @room_2_seniors_combobox.displayed?
+	}	
+	end
+  
+  def room_3_seniors_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_3_seniors_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 3 seniors combobox').by_css_locator)
+	  @room_3_seniors_combobox if @room_3_seniors_combobox.displayed?
+	}	
+	end
+  
+  def room_4_seniors_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_4_seniors_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 4 seniors combobox').by_css_locator)
+	  @room_4_seniors_combobox if @room_4_seniors_combobox.displayed?
+	}	
+	end
+  
+  def room_1_children_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_1_children_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 1 children combobox').by_css_locator)
+	  @room_1_children_combobox if @room_1_children_combobox.displayed?
+	}	
+	end 
+  
+  def room_2_children_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_2_children_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 2 children combobox').by_css_locator)
+	  @room_2_children_combobox if @room_2_children_combobox.displayed?
+	}	
+	end
+  
+  def room_3_children_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_3_children_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 3 children combobox').by_css_locator)
+	  @room_3_children_combobox if @room_3_children_combobox.displayed?
+	}	
+	end
+  
+  def room_4_children_combobox  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @room_4_children_combobox = self.driver.find_element(:css => self.db_object.elements.find_by_name('room 4 children combobox').by_css_locator)
+	  @room_4_children_combobox if @room_4_children_combobox.displayed?
+	}	
+	end
+  
+  def selection_options_seniors_1_combobox
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @selection_options_seniors_1_combobox = self.driver.find_elements(:css => self.db_object.elements.find_by_name('selection options seniors 1 combobox').by_css_locator)
+	  @selection_options_seniors_1_combobox if @selection_options_seniors_1_combobox[0].displayed?
+	}	
+	end
+  
+  def selection_options_seniors_2_combobox
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @selection_options_seniors_2_combobox = self.driver.find_elements(:css => self.db_object.elements.find_by_name('selection options seniors 2 combobox').by_css_locator)
+	  @selection_options_seniors_2_combobox if @selection_options_seniors_2_combobox[0].displayed?
+	}	
+	end
+  
+  def selection_options_seniors_3_combobox
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @selection_options_seniors_3_combobox = self.driver.find_elements(:css => self.db_object.elements.find_by_name('selection options seniors 3 combobox').by_css_locator)
+	  @selection_options_seniors_3_combobox if @selection_options_seniors_3_combobox[0].displayed?
+	}	
+	end
+  
+  def selection_options_seniors_4_combobox
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {  
+    @selection_options_seniors_4_combobox = self.driver.find_elements(:css => self.db_object.elements.find_by_name('selection options seniors 4 combobox').by_css_locator)
+	  @selection_options_seniors_4_combobox if @selection_options_seniors_4_combobox[0].displayed?
+	}	
+	end
+  
+  def first_dp_hotel_card  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @first_dp_hotel_card = self.driver.find_element(:css => self.db_object.elements.find_by_name('first dp hotel card').by_css_locator)
+	  @first_dp_hotel_card if @first_dp_hotel_card.displayed?
+	}	
+	end
+  
+  def travelers_count_link  
+	  wait = Selenium::WebDriver::Wait.new(:timeout => TIMEOUT)
+	  wait.until {
+	  @travelers_count_link = self.driver.find_element(:css => self.db_object.elements.find_by_name('travelers count link').by_css_locator)
+	  @travelers_count_link if @travelers_count_link.displayed?
+	}	
+	end
+>>>>>>> .merge_file_a01980
+end

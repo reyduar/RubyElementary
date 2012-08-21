@@ -1,0 +1,59 @@
+
+AMEX_Hotel
+  Sprint_07
+    Script_01
+      Hotel: AXPT-513 - Property Card - As a customer I want to see the price in points
+[31m        Search for Los Angeles, 6/10 to 6/12. View Beverly Hills Hotel
+           - Click the ? to open the Overlay 
+           - Click 'Show Hotel Highlights'
+           - Click 'More' to open the overlay (FAILED - 1)[0m
+      Hotel: AXPT-910 Map View - As a customer I want to see details of the hotels plotted on the map
+[31m        New Search for Disneyland: 8/25 to 8/27. On Hotel Map View (FAILED - 2)[0m
+      Hotel: AXPT-911 Map View - As a customer I want to plot a location on the map
+[31m        Remain on search results for Disneyland. From Map View. Click the '?' to view the overlay, and close when finished (FAILED - 3)[0m
+
+An error occurred in an after(:all) hook.
+  Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)
+  occurred at C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/net/http.rb:644:in `initialize'
+
+
+Failures:
+
+  1) AMEX_Hotel Sprint_07 Script_01 Hotel: AXPT-513 - Property Card - As a customer I want to see the price in points Search for Los Angeles, 6/10 to 6/12. View Beverly Hills Hotel
+           - Click the ? to open the Overlay 
+           - Click 'Show Hotel Highlights'
+           - Click 'More' to open the overlay
+     [31mFailure/Error:[0m [31mpage.destination_textbox.send_keys("Los Angeles, CA, US")[0m
+     [31mErrno::ECONNREFUSED:[0m
+       [31mNo connection could be made because the target machine actively refused it. - connect(2)[0m
+[36m     # C:/test_automation/automation/iseatz_automation/project/amex/pages/hotel_search_page.rb:560:in `block in destination_textbox'[0m
+[36m     # C:/test_automation/automation/iseatz_automation/project/amex/pages/hotel_search_page.rb:559:in `destination_textbox'[0m
+[36m     # ./reg_sp7_hotel_script1_axpt513_axpt4544_axpt1716_axpt909_axpt910_axpt911_spec.rb:59:in `block (5 levels) in <top (required)>'[0m
+
+  2) AMEX_Hotel Sprint_07 Script_01 Hotel: AXPT-910 Map View - As a customer I want to see details of the hotels plotted on the map New Search for Disneyland: 8/25 to 8/27. On Hotel Map View
+     [31mFailure/Error:[0m [31mdriver.execute_script("arguments[0].value = ''" , page.destination_textbox)[0m
+     [31mErrno::ECONNREFUSED:[0m
+       [31mNo connection could be made because the target machine actively refused it. - connect(2)[0m
+[36m     # C:/test_automation/automation/iseatz_automation/project/amex/pages/hotel_search_page.rb:560:in `block in destination_textbox'[0m
+[36m     # C:/test_automation/automation/iseatz_automation/project/amex/pages/hotel_search_page.rb:559:in `destination_textbox'[0m
+[36m     # ./reg_sp7_hotel_script1_axpt513_axpt4544_axpt1716_axpt909_axpt910_axpt911_spec.rb:131:in `block (5 levels) in <top (required)>'[0m
+
+  3) AMEX_Hotel Sprint_07 Script_01 Hotel: AXPT-911 Map View - As a customer I want to plot a location on the map Remain on search results for Disneyland. From Map View. Click the '?' to view the overlay, and close when finished
+     [31mFailure/Error:[0m [31mpage.map_view_tab.click()[0m
+     [31mErrno::ECONNREFUSED:[0m
+       [31mNo connection could be made because the target machine actively refused it. - connect(2)[0m
+[36m     # C:/test_automation/automation/iseatz_automation/project/amex/pages/hotel_results_page.rb:467:in `block in map_view_tab'[0m
+[36m     # C:/test_automation/automation/iseatz_automation/project/amex/pages/hotel_results_page.rb:466:in `map_view_tab'[0m
+[36m     # ./reg_sp7_hotel_script1_axpt513_axpt4544_axpt1716_axpt909_axpt910_axpt911_spec.rb:166:in `block (5 levels) in <top (required)>'[0m
+
+Finished in 113.83 seconds
+[31m3 examples, 3 failures[0m
+
+Failed examples:
+
+[31mrspec ./reg_sp7_hotel_script1_axpt513_axpt4544_axpt1716_axpt909_axpt910_axpt911_spec.rb:45[0m [36m# AMEX_Hotel Sprint_07 Script_01 Hotel: AXPT-513 - Property Card - As a customer I want to see the price in points Search for Los Angeles, 6/10 to 6/12. View Beverly Hills Hotel
+           - Click the ? to open the Overlay 
+           - Click 'Show Hotel Highlights'
+           - Click 'More' to open the overlay[0m
+[31mrspec ./reg_sp7_hotel_script1_axpt513_axpt4544_axpt1716_axpt909_axpt910_axpt911_spec.rb:130[0m [36m# AMEX_Hotel Sprint_07 Script_01 Hotel: AXPT-910 Map View - As a customer I want to see details of the hotels plotted on the map New Search for Disneyland: 8/25 to 8/27. On Hotel Map View[0m
+[31mrspec ./reg_sp7_hotel_script1_axpt513_axpt4544_axpt1716_axpt909_axpt910_axpt911_spec.rb:164[0m [36m# AMEX_Hotel Sprint_07 Script_01 Hotel: AXPT-911 Map View - As a customer I want to plot a location on the map Remain on search results for Disneyland. From Map View. Click the '?' to view the overlay, and close when finished[0m

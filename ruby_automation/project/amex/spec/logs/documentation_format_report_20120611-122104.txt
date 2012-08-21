@@ -1,0 +1,12 @@
+
+AMEX_Hotel
+  Sprint_07
+    Script_01
+      Hotel: AXPT-513 - Property Card - As a customer I want to see the price in points
+[32m        Search for Los Angeles, 6/10 to 6/12. View Beverly Hills Hotel
+           - Click the ? to open the Overlay 
+           - Click 'Show Hotel Highlights'
+           - Click 'More' to open the overlay[0m
+
+Finished in 118.28 seconds
+[32m1 example, 0 failures[0m

@@ -1,0 +1,5 @@
+
+AMEX_Hotel
+  Sprint_07
+    Script_01
+      Hotel: AXPT-513 - Property Card - As a customer I want to see the price in points
