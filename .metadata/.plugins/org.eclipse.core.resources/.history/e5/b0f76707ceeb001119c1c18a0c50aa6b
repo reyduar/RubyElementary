@@ -1,0 +1,31 @@
+#-- Definimos la clase
+class Perro 
+  def ladra
+    print "guau guau\n"
+  end
+  
+  def corre
+    print "esta corriendo\n"
+  end
+  
+  def come
+    print "esta comiendo\n"
+  end
+  
+  def color_raza
+    print "El perro es de color : "+ @color + "\n"
+    print "El perro es de raza : "+ @raza + "\n"
+  end
+end
+
+#-- Instanciamos la clase
+rufi = Perro.new('Negro','Bulldog')
+
+#-- Utilizamos la clase 
+rufi.ladra
+rufi.corre
+rufi.come
+rufi.color_raza
+
+
+

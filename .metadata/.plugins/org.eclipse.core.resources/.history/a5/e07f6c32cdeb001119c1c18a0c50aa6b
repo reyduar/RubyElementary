@@ -1,0 +1,17 @@
+#-- Definimos la clase
+class Perro 
+  def ladra
+    print "guau guau\n"
+  end
+  
+  def corre
+    print "esta corriendo\n"
+  end
+  
+  def come
+    print "esta comiendo\n"
+  end
+end
+
+
+

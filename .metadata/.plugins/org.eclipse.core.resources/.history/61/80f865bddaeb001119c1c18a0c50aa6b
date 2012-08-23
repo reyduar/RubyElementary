@@ -1,0 +1,7 @@
+require_relative 'redefinicion_metodo'
+
+#-- Instanciamos la clase Humano para usarla
+humano = Humano.new
+
+#-- Usamos la instancia de la clase Gato
+humano.identidad

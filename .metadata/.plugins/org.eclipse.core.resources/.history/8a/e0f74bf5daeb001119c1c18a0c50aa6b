@@ -1,0 +1,10 @@
+require_relative 'redefinicion_metodo'
+
+#-- Instanciamos la superclase Humano y la usamos 
+Humano.new.identidad
+
+
+
+
+
+

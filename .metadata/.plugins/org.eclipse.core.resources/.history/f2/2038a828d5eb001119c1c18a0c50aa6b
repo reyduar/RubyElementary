@@ -1,0 +1,18 @@
+#-- Creamos la clase Padre mamifero
+class Mamifero
+  def respirar
+    print "Inhala y exhala\n"
+  end
+end
+
+#--Creamos la clase gato y hacemos que herede de Mamifero
+class Gato<Mamifero
+  def maulla
+    print "miauuuuuuuuuroowwwww\n"    
+  end
+end
+#-- Intanciamos la clase para usarla
+Maneki_neko = Gato.new
+
+#-- Usamos la instancia de la clase
+Maneki_neko.respirar

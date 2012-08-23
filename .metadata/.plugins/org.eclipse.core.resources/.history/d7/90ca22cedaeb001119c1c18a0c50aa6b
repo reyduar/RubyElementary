@@ -1,0 +1,8 @@
+require_relative 'redefinicion_metodo'
+
+#-- Instanciamos la clase Humano para usarla
+Humano.new.identidad
+
+
+
+

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="15" version="2.0">
+<workbenchAdvisor/>
+<window height="728" width="1200" x="25" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.radrails.rails.ui.RailsElementCreationActionSet" itemType="typeToolBarContribution" x="37" y="22"/>
+<coolItem id="org.radrails.rails.ui.railsActions" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="s.com.aptana.ide.core.ui.actionSet.ShowAptanaView" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.rubypeople.rdt.ui.EditorRubyFile" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - RadRails">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="clases.rb" partName="clases.rb" path="C:/RubyElementary/ProjectRubyElementary/clases.rb" title="clases.rb" tooltip="ProjectRubyElementary/clases.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/clases.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="271" selectionTopPixel="0"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="test_clases.rb" partName="test_clases.rb" path="C:/RubyElementary/ProjectRubyElementary/test_clases.rb" title="test_clases.rb" tooltip="ProjectRubyElementary/test_clases.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/test_clases.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="25" selectionOffset="50" selectionTopPixel="0"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="herencia.rb" partName="herencia.rb" path="C:/RubyElementary/ProjectRubyElementary/herencia.rb" title="herencia.rb" tooltip="ProjectRubyElementary/herencia.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/herencia.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="730" selectionTopPixel="244"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="test_herencia.rb" partName="test_herencia.rb" path="C:/RubyElementary/ProjectRubyElementary/test_herencia.rb" title="test_herencia.rb" tooltip="ProjectRubyElementary/test_herencia.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/test_herencia.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="152" selectionOffset="31" selectionTopPixel="0"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="redefinicion_metodo.rb" partName="redefinicion_metodo.rb" path="C:/RubyElementary/ProjectRubyElementary/redefinicion_metodo.rb" title="redefinicion_metodo.rb" tooltip="ProjectRubyElementary/redefinicion_metodo.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/redefinicion_metodo.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="359" selectionTopPixel="0"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="test_redeficion_metodo.rb" partName="test_redeficion_metodo.rb" path="C:/RubyElementary/ProjectRubyElementary/test_redeficion_metodo.rb" title="test_redeficion_metodo.rb" tooltip="ProjectRubyElementary/test_redeficion_metodo.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/test_redeficion_metodo.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="38" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="control_acceso.rb" partName="control_acceso.rb" path="C:/RubyElementary/ProjectRubyElementary/control_acceso.rb" title="control_acceso.rb" tooltip="ProjectRubyElementary/control_acceso.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/control_acceso.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="274" selectionTopPixel="0"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="test_control_acceso.rb" partName="test_control_acceso.rb" path="C:/RubyElementary/ProjectRubyElementary/test_control_acceso.rb" title="test_control_acceso.rb" tooltip="ProjectRubyElementary/test_control_acceso.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/test_control_acceso.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="33" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="metodo_singleton.rb" partName="metodo_singleton.rb" path="C:/RubyElementary/ProjectRubyElementary/metodo_singleton.rb" title="metodo_singleton.rb" tooltip="ProjectRubyElementary/metodo_singleton.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/metodo_singleton.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="344" selectionTopPixel="0"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="modulos.rb" partName="modulos.rb" path="C:/RubyElementary/ProjectRubyElementary/modulos.rb" title="modulos.rb" tooltip="ProjectRubyElementary/modulos.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/modulos.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="485" selectionTopPixel="0"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="test_modulos.rb" partName="test_modulos.rb" path="C:/RubyElementary/ProjectRubyElementary/test_modulos.rb" title="test_modulos.rb" tooltip="ProjectRubyElementary/test_modulos.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/test_modulos.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="441" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.rubypeople.rdt.ui.EditorRubyFile" name="objetos_procedimientos.rb" partName="objetos_procedimientos.rb" path="C:/RubyElementary/ProjectRubyElementary/objetos_procedimientos.rb" title="objetos_procedimientos.rb" tooltip="ProjectRubyElementary/objetos_procedimientos.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectRubyElementary/objetos_procedimientos.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1057" selectionTopPixel="142"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.rubypeople.rdt.ui.RubyExplorer" partName="Ruby Explorer">
+<viewState isWindowWorkingSet="false" layout="1" org.rubypeople.rdt.ui.packages.linktoeditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.AllMembersFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.NonRubyElementFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.RubyFileFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.NonRubyProjectsFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.LibraryFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+</views>
+<perspectives activePart="org.rubypeople.rdt.ui.EditorRubyFile" activePerspective="org.radrails.rails.ui.PerspectiveRails">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.radrails.rails.internal.ui.RailsPerspectiveFactory" id="org.radrails.rails.ui.PerspectiveRails" label="RadRails"/>
+<alwaysOnActionSet id="a.com.aptana.ide.core.ui.actionSet.ShowRadRails"/>
+<alwaysOnActionSet id="x.com.aptana.ide.core.ui.actionSet.ShowRadRails"/>
+<alwaysOnActionSet id="eclipsemonkeyAction.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.rubypeople.rdt.debug.ui.RDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.core.ui.actionSet.aptanamenu"/>
+<alwaysOnActionSet id="s.com.aptana.ide.core.ui.actionSet.ShowAptanaView"/>
+<alwaysOnActionSet id="com.aptana.ide.desktop.integration.protocolhandler.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.core.ui.actionSet.documentation"/>
+<alwaysOnActionSet id="com.aptana.ide.installer.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.intro.menuActionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.pathtools.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.update.ui.actionSet"/>
+<alwaysOnActionSet id="org.radrails.rails.ui.railsActions"/>
+<alwaysOnActionSet id="org.rubypeople.rdt.ui.rubyActionSet"/>
+<alwaysOnActionSet id="org.radrails.rails.ui.RailsElementCreationActionSet"/>
+<show_view_action id="org.rubypeople.rdt.testunit.views.TestUnitView"/>
+<show_view_action id="org.rubypeople.rdt.ui.RubyExplorer"/>
+<show_view_action id="org.radrails.rails.ui.ViewRailsPlugins"/>
+<show_view_action id="org.radrails.rails.ui.ViewGenerators"/>
+<show_view_action id="com.aptana.rdt.ViewRakeTasks"/>
+<show_view_action id="com.aptana.rdt.ui.views.RailsAPIView"/>
+<show_view_action id="com.aptana.rdt.ui.views.RubyCoreAPIView"/>
+<show_view_action id="com.aptana.rdt.ui.views.RubyStdLibAPIView"/>
+<show_view_action id="org.epic.regexp.views.RegExpView"/>
+<show_view_action id="com.aptana.gems.ui.ViewGems"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.rubypeople.rdt.ui.views.RIView"/>
+<show_view_action id="org.rubypeople.rdt.ui.RDocView"/>
+<show_view_action id="com.aptana.ide.server.ui.serversView"/>
+<show_view_action id="com.aptana.ide.logging.LogView"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.ERBNewWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.HAMLNewWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.SassNewWizard"/>
+<new_wizard_action id="org.radrails.rails.ui.wizards.NewWizardProject"/>
+<new_wizard_action id="org.rubypeople.rdt.ui.wizards.RubyNewFileWizard"/>
+<new_wizard_action id="org.rubypeople.rdt.ui.wizards.RubyNewClassWizard"/>
+<new_wizard_action id="org.rubypeople.rdt.testunit.wizards.RubyNewTestCaseWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.HtmlNewWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.CssNewWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.JsNewWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.radrails.server.ui.WizardNewServer"/>
+<perspective_action id="com.aptana.ide.js.ui.WebPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.rubypeople.rdt.ui.RubyExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.rubypeople.rdt.ui.RubyExplorer" appearance="2" expanded="2">
+<page content="org.rubypeople.rdt.ui.RubyExplorer" label="Ruby Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="882" ratioRight="294" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19982994" ratioLeft="235" ratioRight="941" relationship="2" relative="topLeft"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@16b152b" ratio="0.74172187" ratioLeft="448" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.radrails.rails.ui.ViewGenerators" label="LabelNotFound"/>
+<page content="org.radrails.rails.ui.ViewRailsPlugins" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="com.aptana.ide.logging.LogView" label="LabelNotFound"/>
+<page content="com.aptana.ide.server.ui.serversView" label="LabelNotFound"/>
+<page content="com.aptana.ide.js.ui.views.problemsView" label="LabelNotFound"/>
+<page content="com.aptana.ide.ui.ViewPlugins" label="LabelNotFound"/>
+<page content="com.aptana.rdt.ViewRakeTasks" label="LabelNotFound"/>
+<page content="org.rubypeople.rdt.ui.views.RIView" label="LabelNotFound"/>
+<page content="com.aptana.gems.ui.ViewGems" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.5996705" ratioLeft="364" ratioRight="243" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.aptana.ide.documentation.TutorialView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" path="/ProjectRubyElementary/test_herencia.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" path="/ProjectRubyElementary/redefinicion_metodo.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" path="/ProjectRubyElementary/test_redeficion_metodo.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" path="/ProjectRubyElementary/control_acceso.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" path="/ProjectRubyElementary/test_control_acceso.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" path="/ProjectRubyElementary/metodo_singleton.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" path="/ProjectRubyElementary/modulos.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" path="/ProjectRubyElementary/test_modulos.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" path="/ProjectRubyElementary/objetos_procedimientos.rb"/>
+</editors>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="1621" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="1541" y="0"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="0" y="38"/>
+</item>
+<item historyLabel="test_herencia.rb" index="0">
+<position info="not_deleted" x="0" y="27"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="1541" y="0"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="583" y="0"/>
+</item>
+<item historyLabel="test_herencia.rb" index="0">
+<position info="not_deleted" x="31" y="152"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="173" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="482" y="10"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="432" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="1033" y="10"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="444" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="1058" y="17"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="583" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="1050" y="0"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="341" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="373" y="0"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="583" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="415" y="0"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="583" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="407" y="0"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="583" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="373" y="0"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="583" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="371" y="0"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="583" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="394" y="0"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="583" y="0"/>
+</item>
+<item historyLabel="redefinicion_metodo.rb" index="1">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="control_acceso.rb" index="3">
+<position info="not_deleted" x="1" y="18"/>
+</item>
+<item historyLabel="control_acceso.rb" index="3">
+<position info="not_deleted" x="670" y="16"/>
+</item>
+<item historyLabel="test_control_acceso.rb" index="4">
+<position info="not_deleted" x="325" y="0"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="583" y="0"/>
+</item>
+<item historyLabel="control_acceso.rb" index="3">
+<position info="not_deleted" x="274" y="0"/>
+</item>
+<item historyLabel="test_redeficion_metodo.rb" index="2">
+<position info="not_deleted" x="0" y="38"/>
+</item>
+<item historyLabel="test_control_acceso.rb" index="4">
+<position info="not_deleted" x="37" y="0"/>
+</item>
+<item historyLabel="metodo_singleton.rb" index="5">
+<position info="not_deleted" x="344" y="0"/>
+</item>
+<item historyLabel="modulos.rb" index="6">
+<position info="not_deleted" x="193" y="2"/>
+</item>
+<item historyLabel="modulos.rb" index="6">
+<position info="not_deleted" x="339" y="0"/>
+</item>
+<item historyLabel="test_modulos.rb" index="7">
+<position info="not_deleted" x="441" y="0"/>
+</item>
+<item historyLabel="modulos.rb" index="6">
+<position info="not_deleted" x="399" y="5"/>
+</item>
+<item historyLabel="test_modulos.rb" index="7">
+<position info="not_deleted" x="441" y="0"/>
+</item>
+<item historyLabel="test_control_acceso.rb" index="4">
+<position info="not_deleted" x="0" y="33"/>
+</item>
+<item historyLabel="test_modulos.rb" index="7">
+<position info="not_deleted" x="441" y="0"/>
+</item>
+<item historyLabel="modulos.rb" index="6">
+<position info="not_deleted" x="485" y="0"/>
+</item>
+<item historyLabel="test_modulos.rb" index="7">
+<position info="not_deleted" x="441" y="0"/>
+</item>
+<item historyLabel="objetos_procedimientos.rb" index="8">
+<position info="not_deleted" x="1057" y="0"/>
+</item>
+<item active="true" historyLabel="objetos_procedimientos.rb" index="8">
+<position info="not_deleted" x="406" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="com.aptana.ide.intro.StartPageAction"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="objetos_procedimientos.rb" tooltip="ProjectRubyElementary/objetos_procedimientos.rb">
+<persistable path="/ProjectRubyElementary/objetos_procedimientos.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="test_modulos.rb" tooltip="ProjectRubyElementary/test_modulos.rb">
+<persistable path="/ProjectRubyElementary/test_modulos.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="modulos.rb" tooltip="ProjectRubyElementary/modulos.rb">
+<persistable path="/ProjectRubyElementary/modulos.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="metodo_singleton.rb" tooltip="ProjectRubyElementary/metodo_singleton.rb">
+<persistable path="/ProjectRubyElementary/metodo_singleton.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="test_control_acceso.rb" tooltip="ProjectRubyElementary/test_control_acceso.rb">
+<persistable path="/ProjectRubyElementary/test_control_acceso.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="control_acceso.rb" tooltip="ProjectRubyElementary/control_acceso.rb">
+<persistable path="/ProjectRubyElementary/control_acceso.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="test_redeficion_metodo.rb" tooltip="ProjectRubyElementary/test_redeficion_metodo.rb">
+<persistable path="/ProjectRubyElementary/test_redeficion_metodo.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="redefinicion_metodo.rb" tooltip="ProjectRubyElementary/redefinicion_metodo.rb">
+<persistable path="/ProjectRubyElementary/redefinicion_metodo.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="test_herencia.rb" tooltip="ProjectRubyElementary/test_herencia.rb">
+<persistable path="/ProjectRubyElementary/test_herencia.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="Herencia.rb" tooltip="ProjectRubyElementary/Herencia.rb">
+<persistable path="/ProjectRubyElementary/Herencia.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="Test.rb" tooltip="ProjectRubyElementary/Test.rb">
+<persistable path="/ProjectRubyElementary/Test.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="MetodosRuby.rb" tooltip="ProjectRubyElementary/MetodosRuby.rb">
+<persistable path="/ProjectRubyElementary/MetodosRuby.rb"/>
+</file>
+</mruList>
+</workbench>

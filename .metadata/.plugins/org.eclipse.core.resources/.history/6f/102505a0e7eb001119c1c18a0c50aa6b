@@ -1,0 +1,5 @@
+require_relative 'modulos'
+
+ 
+Trig.sin(Trig::PI/4)    # "::" -> PI/4 de la clas Trig 
+Moral.sin(Moral::MUY_MAL)

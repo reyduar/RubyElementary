@@ -1,0 +1,11 @@
+class Mamifero
+  def respirar
+    print "Inhala y exhala\n"
+  end
+end
+
+class Gato<Mamifero
+  def maulla
+    print "miauuuuuuuuuroowwwww\n"    
+  end
+end

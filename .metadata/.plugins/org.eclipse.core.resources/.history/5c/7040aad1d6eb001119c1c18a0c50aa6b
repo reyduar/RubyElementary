@@ -1,0 +1,8 @@
+require_relative 'herencia'
+
+#-- Intanciamos la clase para usarla
+Maneki_neko = Gato.new
+
+#-- Usamos la instancia de la clase
+Maneki_neko.respirar
+Maneki_neko.maulla;

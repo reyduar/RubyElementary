@@ -1,0 +1,9 @@
+#Control de accesos
+#Cuando un metodo se define fuera de una clase, el metodo pertence a la superclase Object
+
+#-- Creamos el metodo square fuera de una clase
+  def square(n)
+    Math.sqrt(n)
+  end
+  
+puts square(25).to_i

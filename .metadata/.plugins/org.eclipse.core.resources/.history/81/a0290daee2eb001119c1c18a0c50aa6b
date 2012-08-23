@@ -1,0 +1,6 @@
+require_relative 'control_acceso'
+#Instanciamos la clase Util que tiene el metodo invisible
+test = Util.new
+
+#Tratamos de usar el metodo privado engine
+test.engine(6)

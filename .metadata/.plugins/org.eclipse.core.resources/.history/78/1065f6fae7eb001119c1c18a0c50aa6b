@@ -1,0 +1,34 @@
+#Módulos
+
+#Los módulos en Ruby son similares a las clases, excepto en:
+#• Un módulo no puede tener instancias
+#• Un módulo no puede tener subclases
+#• Un módulo se deﬁne con module ... end
+
+
+# Creamos el modulo Trig
+module Trig  
+  PI = 3.1416  
+  # métodos 
+  def Trig.sin(x)  
+    
+  end  
+  def Trig.cos(x)  
+    # ...  
+  end  
+end  
+
+# Creamos el modulo Moral
+module Moral  
+  MUY_MAL = 0  
+  MAL     = 1  
+  def Moral.sin(maldad)  
+    # ...  
+  end  
+end  
+
+
+require 'Trig'  
+require 'Moral'  
+Trig.sin(Trig::PI/4)    # "::" -> PI/4 de la clas Trig 
+Moral.sin(Moral::MUY_MAL)

@@ -1,0 +1,2 @@
+INDEX VERSION 1.125+C:\RubyElementary\.metadata\.plugins\org.rubypeople.rdt.core
+2888611737.index

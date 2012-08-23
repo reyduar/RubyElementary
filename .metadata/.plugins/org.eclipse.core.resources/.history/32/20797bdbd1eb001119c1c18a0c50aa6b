@@ -1,0 +1,9 @@
+require_relative 'poo'
+
+#-- Instanciamos la clase
+rufi = Perro.new
+
+#-- Utilizamos la clase 
+rufi.ladra
+rufi.corre
+rufi.come

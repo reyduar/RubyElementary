@@ -1,0 +1,7 @@
+class Mamifero
+  def respirar
+    print "Inhala y exhala\n"
+  end
+end
+
+
