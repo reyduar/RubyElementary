@@ -1,0 +1,3 @@
+linea con texto
+pi aproximado 3.14159265358979
+e vale 2.71828182845904
