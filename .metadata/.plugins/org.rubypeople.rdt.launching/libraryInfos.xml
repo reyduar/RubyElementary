@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+<libraryInfo home="C:\RailsInstaller\Ruby1.9.3" version="1.9.3" vmTypeId="org.rubypeople.rdt.launching.StandardVMType">
+<bootpath>
+<entry path="C:/RailsInstaller/Ruby1.9.3/lib/ruby/site_ruby/1.9.1"/>
+<entry path="C:/RailsInstaller/Ruby1.9.3/lib/ruby/site_ruby/1.9.1/i386-msvcrt"/>
+<entry path="C:/RailsInstaller/Ruby1.9.3/lib/ruby/site_ruby"/>
+<entry path="C:/RailsInstaller/Ruby1.9.3/lib/ruby/vendor_ruby/1.9.1"/>
+<entry path="C:/RailsInstaller/Ruby1.9.3/lib/ruby/vendor_ruby/1.9.1/i386-msvcrt"/>
+<entry path="C:/RailsInstaller/Ruby1.9.3/lib/ruby/vendor_ruby"/>
+<entry path="C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1"/>
+<entry path="C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/i386-mingw32"/>
+</bootpath>
+</libraryInfo>
 <libraryInfo home="C:\Users\Ariel Duarte\AppData\Local\Aptana RadRails\plugins\org.jruby_1.2.0.9419p2" version="1.8.6" vmTypeId="org.rubypeople.rdt.launching.JRubyVMType">
 <bootpath>
 <entry path="C:/Users/Ariel Duarte/AppData/Local/Aptana RadRails/plugins/org.jruby_1.2.0.9419p2/bin/../lib/ruby/site_ruby/1.8"/>
 <entry path="C:/Users/Ariel Duarte/AppData/Local/Aptana RadRails/plugins/org.jruby_1.2.0.9419p2/bin/../lib/ruby/site_ruby"/>
 <entry path="C:/Users/Ariel Duarte/AppData/Local/Aptana RadRails/plugins/org.jruby_1.2.0.9419p2/bin/../lib/ruby/1.8"/>
+</bootpath>
+</libraryInfo>
+<libraryInfo home="C:\Ruby192" version="1.9.2" vmTypeId="org.rubypeople.rdt.launching.StandardVMType">
+<bootpath>
+<entry path="C:/Ruby192/lib/ruby/site_ruby/1.9.1"/>
+<entry path="C:/Ruby192/lib/ruby/site_ruby/1.9.1/i386-msvcrt"/>
+<entry path="C:/Ruby192/lib/ruby/site_ruby"/>
+<entry path="C:/Ruby192/lib/ruby/vendor_ruby/1.9.1"/>
+<entry path="C:/Ruby192/lib/ruby/vendor_ruby/1.9.1/i386-msvcrt"/>
+<entry path="C:/Ruby192/lib/ruby/vendor_ruby"/>
+<entry path="C:/Ruby192/lib/ruby/1.9.1"/>
+<entry path="C:/Ruby192/lib/ruby/1.9.1/i386-mingw32"/>
 </bootpath>
 </libraryInfo>
 </libraryInfos>

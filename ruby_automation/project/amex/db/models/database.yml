@@ -1,4 +1,0 @@
-adapter: sqlite3
-database: amex_automation_database.db
-pool: 5
-timeout: 5000
